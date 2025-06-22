@@ -20,5 +20,16 @@ class ArrList_collections {
         while (itr.hasNext()) {
             System.out.println(itr.next() + "");
         }
+
+        newlist.set(2, 5);
+        newlist.get(2);
+
+        System.out.println(newlist);
+
+        for (Object x : newlist) {
+            System.out.println(x);
+        }
+
+        mylist.removeAll();
     }
 }
